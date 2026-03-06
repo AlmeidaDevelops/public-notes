@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="/style.css" />
+        <title>{% block title %}Alm's Notebook{% endblock %}</title>
+    </head>
+    <body>
+        <nav>
+            <a href="/">Inicio</a>
+            <a href="/sobre-mi">Sobre mí</a>
+            <a href="/articulos">Artículos</a>
+        </nav>
+
+        {% block content %}{% endblock %}
+
+        <footer>Alm's Notebook</footer>
+    </body>
+</html>
